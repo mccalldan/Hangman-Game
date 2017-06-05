@@ -1,0 +1,39 @@
+body {
+    background: url('http://wallpapercave.com/wp/bV3WiYh.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
+
+.jumbotron {
+	background: url("http://farm1.static.flickr.com/251/445990554_ed2e1a165c.jpg");
+	font-color: yellow;
+}
+
+
+#character {
+
+	
+
+}
+
+
+#instructions {
+
+	
+
+
+
+}
+
+h2 {
+	font-color: yellow;
+
+}
+
+h3 {
+	color:yellow;
+
+}
