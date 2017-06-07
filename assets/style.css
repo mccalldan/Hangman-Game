@@ -1,5 +1,5 @@
 body {
-    background: url('http://wallpapercave.com/wp/bV3WiYh.jpg') no-repeat center center fixed;
+    background: url('http://wallpapercave.com/wp/mgYCQqd.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -7,33 +7,34 @@ body {
     height:100%;
 }
 
-.jumbotron {
-	background: url("http://farm1.static.flickr.com/251/445990554_ed2e1a165c.jpg");
-	font-color: yellow;
+#alphabet-keypad {
+  margin-left: 4%;
+  text-align: center;
 }
+.letter-button, .letter-disabled {
+  border-radius: 50%;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 1.6em;
+  height: 1.6em;
+  margin: 0.2em 0.1em;
+  padding-top: 0.1em;
+  width: 1.6em;
 
-
-#character {
-
-	
-
+  transition: color 0.2s,
+  background-color 0.2s;
 }
-
-
-#instructions {
-
-	
-
-
-
+.letter-button {
+  border: 1px solid rgb(60, 160, 210);
+  color: rgb(60, 160, 210);
 }
-
-h2 {
-	font-color: yellow;
-
+.letter-button:hover {
+  background-color: rgb(60, 160, 210);
+  color: white;
+  cursor: pointer;
 }
-
-h3 {
-	color:yellow;
-
+.letter-disabled {
+  border: 1px solid lightgrey;
+  color: lightgrey;
+  cursor: default;
 }
